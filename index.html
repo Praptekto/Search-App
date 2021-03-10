@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1 class="offscreen"> Search Me A wikipedia powered Search engine</h1>
+        <section class= "seacrhEntry">
+            <h2 class="offscreen">Search term entry</h2>
+            <div class="logo" aria-hidden="true">searchMe</div>
+            <form action="" class="searchBar" id="searchBar">
+                <label for="search" class="offscreen">Enter a search term or phrase</label>
+                <input id="text" class="text" autocomplete="on"/>
+                <div class="none button clear" id="clear" role="button"
+                tabindex="0" aria-label="Clear search terms"
+                >x</div>
+                <button id="searchButton" class="button searchButton" 
+                type="submit" aria-label="Submit button">
+                    Search
+                </button>
+            </form>
+
+        </section>
+        <section class="results">
+            <h2 class="offscreen">
+                Search Results
+            </h2>
+            <div class="statsBar">
+                <div class="stats" id="stats" aria-live="assertive">
+
+                </div>
+                <div class="searchResults" id="searchResults">
+
+                </div>
+            </div>
+        </section>
+        <footer class="">
+            <p><span aria-hidden="true">&lt;&lt;</span>Powered By <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a>
+            <span aria-hidden="true">&gt;&gt;</span></p>
+        </footer>
+        
+    </main>
+    
+</body>
+</html>
